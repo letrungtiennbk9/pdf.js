@@ -2213,7 +2213,7 @@ class PDFWorker {
       PDFWorkerUtil.fallbackWorkerSrc !== null
     ) {
       if (!isNodeJS) {
-        deprecated('No "GlobalWorkerOptions.workerSrc" specified.');
+        deprecated('No "GlobalWorkerOptions.workerSrc" specified.')
       }
       return PDFWorkerUtil.fallbackWorkerSrc;
     }
